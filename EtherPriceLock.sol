@@ -1,5 +1,7 @@
 pragma solidity ^0.4.11;
 
+import "./ExchangeRate.sol"
+
 contract EtherPriceLock {
 
     // Keep track of the original contract owner
